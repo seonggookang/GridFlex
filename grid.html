@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   
+    .bub{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       height: 100vh; /*스크린을 100다 사용한다 뜻 */
+    }
+    
+    .container{
+      display:grid;
+      grid-template-columns: 100px 200px 100px  ;
+      grid-auto-rows: minmax(100px, auto);
+      word-break:break-all;
+      
+    }
+    .item{
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+      border: 1px solid black;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="bub">
+    <div class="container">
+      <div class="item">AAaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAA</div>
+      <div class="item">BB</div>
+      <div class="item">CC</div>
+      <div class="item">DD</div>
+      <div class="item">EE</div>
+      <div class="item">FF</div>
+      <div class="item">GG</div>
+      <div class="item">HH</div>
+    </div>
+  </div>
+</body>
+</html>
